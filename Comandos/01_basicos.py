@@ -18,3 +18,4 @@
 # Para etiquetar un commit en especifico si es un cambio importante y saber a que se refiere mediante un tag --> git tag "Nombre del tag"
 # Por si me voy a una rama de manera repentina pero no quiero hacer un commit sino guardar en borrador lo que hice por el momento --> git stash
 # para ver la lista de stash que tengo es --> git stash list cuando ya volvi a la rama y quiero obtener de nuevo lo que deje guardado es --> git stash pop
+# Para ver las diferencias que tienen las diferentes ramas --> git diff "" ""
