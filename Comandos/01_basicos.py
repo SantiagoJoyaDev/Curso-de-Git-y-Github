@@ -1,4 +1,4 @@
-# ---------- COMANDOS BASICOS ----------
+# ---------- COMANDOS BASICOS ---------- (EN LOCAL)
 
 # Para inicializar y usar git y github
 # Para iniciar el git --> git init
@@ -6,6 +6,7 @@
 # Para añadir los cambios al escenario de stage --> git add .
 # Para ver los diferentes cambios que se han realizado antes de hacer un commit --> git status
 # Para hacer un guardado de los cambios realizados --> git commit -m "Primer commit"(Se escribe algo en general relacionado de los cambios que se hicierion)
+# Para subir los cambios de mi local al repositorio de github remoto --> git push origin main
 # Para ver ya los diferentes commits(guardados que se han echo) que se han realizado --> git log
 # Pero tambien hay diferentes maneras de usar el git log para que nos muestre el contenido de manera mas agradable
 # por ejemplo -- > git log --graph -- git log --graph --pretty=oneline -git log --graph --decorate --all --oneline
@@ -18,4 +19,7 @@
 # Para etiquetar un commit en especifico si es un cambio importante y saber a que se refiere mediante un tag --> git tag "Nombre del tag"
 # Por si me voy a una rama de manera repentina pero no quiero hacer un commit sino guardar en borrador lo que hice por el momento --> git stash
 # para ver la lista de stash que tengo es --> git stash list cuando ya volvi a la rama y quiero obtener de nuevo lo que deje guardado es --> git stash pop
-# Para ver las diferencias que tienen las diferentes ramas --> git diff "" ""
+# Para ver las diferencias que tienen las diferentes ramas --> git diff "Nombre de la rama" "Nombre de la rama"(o solamente se coloca le nombre de la rama la cual se quiere comparar)
+# Para descargar el historial de cambios pero sin descargar los cambios --> git fetch
+# Para descargar el historial de cambios pero descargando los cambios --> git pull origin main
+# Para clonar un repositorio en remoto en el cual voy a trabajar --> git clone "link del repositorio en remoto"

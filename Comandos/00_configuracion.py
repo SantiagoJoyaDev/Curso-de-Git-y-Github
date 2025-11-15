@@ -6,4 +6,3 @@
 # Siempre Git va a necesitar un correo electronico y un usuario
 # Para configurar el usuario --> git config --global user.name "Nombre del usuario"
 # Para configurar el email --> git config --global user.email "email del  usuario"
-# 
